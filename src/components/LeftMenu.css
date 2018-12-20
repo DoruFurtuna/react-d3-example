@@ -1,5 +1,27 @@
 .LeftMenuWrapper {
   background-color: #003459;
-  padding: 30px 0;
   position: relative;
+}
+
+.Logo {
+  color: white;
+  text-align: center;
+  line-height: 62px;
+  font-size: 20px;
+  font-weight: 600;
+  background: #012c4c;
+}
+
+.AddButton {
+  background: #0566f1;
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  margin: 25px 19px;
+  display: inline-block;
+  border-radius: 5px;
 }
