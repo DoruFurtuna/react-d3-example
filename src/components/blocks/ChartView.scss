@@ -1,0 +1,32 @@
+.ChartViewWrapper {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #eaebef;
+  flex: 1;
+  margin: 15px;
+}
+
+.ChartViewTitle {
+  font-weight: 600;
+  color: #54555a;
+}
+
+body {
+  margin: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.line {
+  fill: none;
+  stroke: #186dea;
+  stroke-width: 3px;
+}
+
+.axis {
+  font-family: "Quicksand", sans-serif;
+  font-size: 13px;
+}

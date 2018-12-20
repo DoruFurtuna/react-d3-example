@@ -1,0 +1,28 @@
+.UserBlockWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.UserBlockInner {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.UserTitle {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.EXKLM {
+  display: flex;
+  margin-right: 10px;
+}
+
+.SortDown {
+  margin-left: 10px;
+  margin-top: -7px;
+}

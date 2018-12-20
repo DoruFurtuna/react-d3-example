@@ -1,0 +1,31 @@
+@import "./styles/vars";
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex: 1;
+}
+
+.AppContent {
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+}
+
+.RouterOutlet {
+  display: flex;
+  flex: 1;
+  background: $whisperColor;
+  padding: 30px 45px;
+  align-items: start;
+  justify-content: space-around;
+}

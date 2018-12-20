@@ -1,0 +1,27 @@
+@import "../../styles/vars";
+
+.SearchInputWrapper {
+  flex: 1;
+  align-items: center;
+  font-size: 20px;
+  display: flex;
+  line-height: 40px;
+
+  .SearchIcon {
+    color: $mischkaColor;
+  }
+
+  .SearchInput {
+    flex: 1;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    color: $boulderColor;
+    margin-left: 20px;
+    line-height: 40px;
+
+    &::placeholder {
+      color: $mischkaColor;
+    }
+  }
+}
