@@ -47,7 +47,7 @@ class ChartView extends React.Component {
     const g = svg.append("g").attr("transform", "translate(-10, 0)");
 
     fetch(
-      "https://www.quandl.com/api/v3/datasets/EOD/HD.json?start_date=2018-01-01&end_date=2018-12-19&collapse=weekly&api_key=AR1Vy__1c4vum2A--dAf"
+      "https://www.quandl.com/api/v3/datasets/EOD/HD.json?start_date=2018-09-01&end_date=2018-12-19&collapse=weekly&api_key=AR1Vy__1c4vum2A--dAf"
     )
       .then(response => response.json())
       .then(response => {
@@ -75,7 +75,7 @@ class ChartView extends React.Component {
           yMin = 0;
         }
 
-        x.domain([new Date("2018-01-01"), new Date("2018-12-19")]);
+        x.domain([new Date("2018-09-01"), new Date("2018-12-19")]);
         y.domain([yMin - 20, yMax]);
 
         const areaFunction = d3

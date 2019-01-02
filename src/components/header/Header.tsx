@@ -7,21 +7,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SearchInput from "./SearchInput";
 import UserBlock from "./UserBlock";
 
-class Header extends React.Component {
-  public render() {
-    return (
-      <div className="HeaderWrapper">
-        <SearchInput />
+export default function Header() {
+  return (
+    <div className="HeaderWrapper">
+      <SearchInput />
 
-        <div className="Notifications">
-          <span className="ActiveCircle" />
-          <FontAwesomeIcon icon={faBell} className="BellIcon" />
-        </div>
-
-        <UserBlock />
+      <div className="Notifications">
+        <span className="ActiveCircle" />
+        <FontAwesomeIcon icon={faBell} className="BellIcon" />
       </div>
-    );
-  }
-}
 
-export default Header;
+      <UserBlock />
+    </div>
+  );
+}

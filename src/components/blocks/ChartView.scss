@@ -29,4 +29,9 @@ body {
 .axis {
   font-family: "Quicksand", sans-serif;
   font-size: 13px;
+
+  path,
+  line {
+    display: none;
+  }
 }
